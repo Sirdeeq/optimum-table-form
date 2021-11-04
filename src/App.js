@@ -5,8 +5,10 @@ import Textarea from './Form/Textarea';
 function App() {
   return (
     <>
-    <Container>
-      <Card>
+   <Row>
+     <Col md={3} />
+     <Col>
+     <Card>
         <CardHeader>
         <Form inline>
           <Row>
@@ -183,7 +185,9 @@ function App() {
         </Row>
         </CardBody>
       </Card>
-      </Container>
+     </Col>
+     <Col  md={3} />
+   </Row>
     </>
   );
 }
